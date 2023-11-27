@@ -4,7 +4,6 @@ import HeaderComponent from './HomeComponents/headerComponent';
 import MainHomeComponent from './HomeComponents/mainComponent';
 
 
-
 function App() {
   return (
     <div className="App">

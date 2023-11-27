@@ -11,10 +11,14 @@ li {
 }
 .header {
     border: 1px solid #333;
-    
-    background-color: rgb(79, 211, 255);
+    color: aliceblue;
+    background-color: #333;
 }
 li:last-child {
     order: 1;
     margin-left: auto;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
 }

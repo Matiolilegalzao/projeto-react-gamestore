@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0.4rem;
-    width: 80%;
+    width: fit-content;
     margin: auto;
     height: 100vw;
 }
@@ -20,6 +20,10 @@ p {
 .item {
     background-color: #333;
     height: 16rem;
+    border-radius: 4px;
+}
+.item:hover {
+    filter: brightness(0.8);
 }
 @media (max-width: 768px) {
   .container {

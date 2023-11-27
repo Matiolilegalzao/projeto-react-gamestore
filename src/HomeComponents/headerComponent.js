@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './header.module.css'
 
 function HeaderComponent() {
@@ -5,7 +6,7 @@ function HeaderComponent() {
         <>
         <div className={styles.header}>
         <ul>
-            <li>Início</li>
+            <li><Link to="/">Início</Link></li>
             <li>Biblioteca</li>
             <li>Loja</li>
             <li>Categorias</li>
