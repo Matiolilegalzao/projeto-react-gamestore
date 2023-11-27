@@ -16,7 +16,9 @@
 .popular {
     text-align: center;
     margin: 1rem;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold   ;
+    color: aliceblue;
 }
 .item {
     background-color: #333;

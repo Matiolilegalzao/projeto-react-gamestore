@@ -11,7 +11,7 @@ function HeaderComponent() {
             <li><Link to="/loja">Loja</Link></li>
             <li><Link to="/categorias">Categorias</Link></li>
             <li><input type="text" placeholder="Buscar..."></input></li>
-            <li><input type="button" value='Entrar'className={styles.btnLogin}/></li>
+            <li><Link to="/registro"><input type="button" value='Entrar'className={styles.btnLogin}/></Link></li>
         </ul>
         </div>
         </>

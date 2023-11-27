@@ -22,4 +22,10 @@ a {
     text-decoration: none;
     color: aliceblue;
 }
-
+.btnLogin {
+    width: 4rem;
+    height: 1.5rem;
+}
+.btnLogin:hover {
+    cursor: pointer;
+}

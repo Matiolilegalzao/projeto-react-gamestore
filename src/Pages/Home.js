@@ -8,10 +8,10 @@ function Home() {
         <>
         <HeaderComponent></HeaderComponent>
         <div className={styles.main}>
-            <p className={styles.popular}>Popular nesta semana</p>
+            <p className={styles.popular}>Popular nesta semana &#128185;</p>
             <div className={styles.container}>
                 <div className={styles.item}>
-                    <Link to="/loja">
+                    <Link to="/loja/resident-evil-4-remake">
                     <img src="/images/re4.jpg" className={styles.item} alt="Resident Evil 4 Remake"></img>
                     </Link>
                 </div>
