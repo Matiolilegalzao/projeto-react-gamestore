@@ -1,9 +1,33 @@
 .mainContent {
-    border: 1px solid #333;
-    width: 55%;
+    width: 43rem;
     margin: 1rem auto;
 }
 .gameName {
     color: aliceblue;
     font-weight: 200;
 }
+.mainImg {
+    width: 60%;
+}
+
+@media (max-width: 700px) {
+    .mainImg {
+      margin: auto;
+      display: flex;
+      width: 90%;
+    }
+    .mainContent {
+        width: 100%;
+    }
+    .gameName {
+        margin-left: 2.3%;
+    }
+  }
+  @media (max-width: 450px) {
+    .mainImg {
+      width: 95%;
+      margin: auto;
+      display: flex;
+    }
+
+  }
