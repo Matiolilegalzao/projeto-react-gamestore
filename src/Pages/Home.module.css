@@ -13,9 +13,10 @@
     margin: auto;
     height: 100vw;
 }
-p {
-    margin: 1rem 0;
-    font-size: 20px;
+.popular {
+    text-align: center;
+    margin: 1rem;
+    font-size: 25px;
 }
 .item {
     background-color: #333;

@@ -1,17 +1,17 @@
 import { Link } from 'react-router-dom'
-import styles from './main.module.css'
+import styles from './Home.module.css'
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import HeaderComponent from '../Components/headerComponent';
 
-
-function MainHomeComponent() {
+function Home() {
     return (
         <>
+        <HeaderComponent></HeaderComponent>
         <div className={styles.main}>
-            <p>Popular nesta semana</p>
+            <p className={styles.popular}>Popular nesta semana</p>
             <div className={styles.container}>
                 <div className={styles.item}>
-                    <Link to="/GamesPage">
+                    <Link to="/loja">
                     <img src="/images/re4.jpg" className={styles.item} alt="Resident Evil 4 Remake"></img>
                     </Link>
                 </div>
@@ -27,4 +27,4 @@ function MainHomeComponent() {
     )
 }
 
-export default MainHomeComponent
+export default Home
