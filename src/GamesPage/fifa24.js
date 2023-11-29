@@ -2,7 +2,7 @@ import HeaderComponent from "../Components/headerComponent";
 import styles from "./Gamepage.module.css"
 import React from "react";
 import { Jogos } from "../Pages/Loja";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 
 function Fifa24(){
     return(
@@ -19,7 +19,7 @@ function Fifa24(){
             <div className={styles.downloadArea}>
                 <p>Comprar {Jogos.fifa24.nome} {Jogos.fifa24.preco}</p>
                 <Link to="/pagamento">
-                <input type="button" className={styles.downloadButton} value="Comprar"/>
+                <input type="button" className={styles.downloadButton} value="Comprar" />
                 </Link>
             </div>
         </div>
@@ -27,5 +27,13 @@ function Fifa24(){
     )
 }
 
+/*function comprar(){
+    let jogo = Jogos.fifa24.nome;
+    let preco = Jogos.fifa24.preco;
 
+    console.log(preco)
+    console.log(jogo)
+}
+
+export { comprar }*/
 export default Fifa24

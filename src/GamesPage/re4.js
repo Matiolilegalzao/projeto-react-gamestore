@@ -2,6 +2,7 @@ import HeaderComponent from "../Components/headerComponent";
 import styles from "./Gamepage.module.css"
 import React from "react";
 import { Jogos } from "../Pages/Loja";
+import { Link } from "react-router-dom";
 
 function Re4Remake(){
     return(
@@ -18,12 +19,21 @@ function Re4Remake(){
             </p>
             <div className={styles.downloadArea}>
                 <p>Comprar {Jogos.re4.nome} {Jogos.re4.preco}</p>
-                <input type="button" className={styles.downloadButton} value="Comprar"/>
+                <Link to="/pagamento">
+                <input type="button" className={styles.downloadButton} value="Comprar" />
+                </Link>
             </div>
         </div>
         </>
     )
 }
+/*function comprar(){
+    let jogoPagamento = Jogos.re4.nome;
+    let precoPagamento = Jogos.re4.preco;
 
+    console.log(precoPagamento)
+    console.log(jogoPagamento)
+}
 
+export { precoPagamento, jogoPagamento }*/
 export default Re4Remake

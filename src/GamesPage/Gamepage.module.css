@@ -34,7 +34,7 @@
   background: linear-gradient(to right, #42c41a, #0aa72c);
   color: aliceblue;
   justify-content: center;
-  margin-right: 3%;
+  margin-right: 1rem;
 }
 .downloadButton:hover {
   filter: brightness(0.9);
