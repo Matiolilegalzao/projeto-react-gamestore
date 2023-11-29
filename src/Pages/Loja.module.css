@@ -1,0 +1,26 @@
+.mainContent {
+    height: 100vh;
+    margin: 2rem auto;
+    border-radius: 8px;
+    width: 55vw;
+}
+.lojaTitle {
+    color: aliceblue;
+    margin: 0.5rem 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.gamesGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.4rem;
+    width: fit-content;
+    margin: 0 auto;
+    height: auto;
+}
+.item {
+    margin-top: 0.5rem;
+    height: 18rem;
+    width: 15rem;
+}

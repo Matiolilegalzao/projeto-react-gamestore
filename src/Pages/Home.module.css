@@ -1,0 +1,35 @@
+.main {
+    height: 80vh;
+    margin: 2rem auto;
+    border-radius: 8px;
+    width: 75vw;
+
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.4rem;
+    width: fit-content;
+    margin: auto;
+    height: 100vw;
+}
+.popular {
+    text-align: center;
+    margin: 1rem;
+    font-size: 30px;
+    font-weight: bold   ;
+    color: aliceblue;
+}
+.item {
+    background-color: #333;
+    height: 16rem;
+    border-radius: 4px;
+}
+.item:hover {
+    filter: brightness(0.8);
+}
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr; /* Altera para uma coluna quando a largura da tela é 768 pixels ou menos */
+  }
+}

@@ -1,0 +1,54 @@
+.createAccount {
+    color: aliceblue;
+    margin: 0;
+    padding: 1rem 0;
+    text-align: center;
+}
+.formStyle {
+    width: 40%;
+    border: 1px solid aliceblue;
+    margin: 2rem auto;
+    border-radius: 4px;
+}
+.formInput {
+    width: 100%;
+    border: 0;
+    border-radius: 2px;
+    height: 1.5rem;
+    margin-top: 0.4rem;
+}
+.formLabel {
+    color: aliceblue;
+    display: block;
+    padding: 0.5rem;
+}
+.formSubmit {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    width: 85%;
+    font-weight: bold;
+    font-size: medium;
+    border: 0;
+    padding: 1rem;
+    color: aliceblue;
+    background-color: rgb(3, 122, 29);
+    border-radius: 4px;
+}
+
+.formSubmit:hover {
+    background-color: rgb(2, 94, 22);
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    .formStyle {
+        width: 80%;
+    }
+    .formInput {
+        width: 90%;
+    }
+    .formStyle {
+        text-align: center;
+    }
+  }
