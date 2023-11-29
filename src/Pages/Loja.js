@@ -3,6 +3,16 @@ import React from "react"
 import { Link } from 'react-router-dom'
 import styles from "./Loja.module.css"
 
+const Jogos = {
+    re4: {
+        nome: 'Resident Evil 4 Remake',
+        preco: 'R$200,00'
+    },
+    fifa24: {
+        nome: 'Ea Sports FC 24',
+        preco: 'R$320,00'
+    }
+}
 
 function LojaPage() {
     return (
@@ -18,7 +28,9 @@ function LojaPage() {
                     </Link>
                 </div>
                 <div className={styles.item}>
+                    <Link to="/loja/ea-sports-fc-24">
                     <img src="/images/fifa24.jpg" className={styles.item} alt="Ea Sports FC 24"></img>
+                    </Link>
                 </div>
                 <div className={styles.item}>
                     <img src="/images/streetfighter6.jpg" className={styles.item} alt="Street Fighter 6"></img>
@@ -34,5 +46,5 @@ function LojaPage() {
         </>
     )
 }
-
-export default LojaPage
+export default LojaPage;
+export { Jogos }

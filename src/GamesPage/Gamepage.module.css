@@ -1,33 +1,130 @@
 .mainContent {
-    width: 43rem;
+    width: fit-content;
     margin: 1rem auto;
+}
+.gameDescription {
+  color: aliceblue;
+  font-size: 1.2rem;
+  width: 40vw;
+    clear: left;
+}
+
+.downloadArea {
+  text-align: right;
+  border: 1px solid aliceblue;
+  background: linear-gradient(to right, #25a325, #147a2a);
+  height: fit-content;
+  border: 0;
+  display: flex;
+  border-radius: 6px;
+  color: aliceblue;
+  font-size: 1.5rem;
+  align-items: center;
+}
+.downloadArea > p {
+  margin-left: 3%;
+  margin-right: auto;
+}
+.downloadButton {
+  width: 6rem;
+  height: 2.5rem;
+  display: flex;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background: linear-gradient(to right, #42c41a, #0aa72c);
+  color: aliceblue;
+  justify-content: center;
+  margin-right: 3%;
+}
+.downloadButton:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+.br {
+  display: block;
 }
 .gameName {
     color: aliceblue;
     font-weight: 200;
+  font-size: 2rem;
 }
 .mainImg {
-    width: 60%;
+    width: 28vw;
 }
+.cover {
+  height: 15.7vw;
+  margin-left: 0.7rem;
 
-@media (max-width: 700px) {
+}
+@media (max-width: 1300px) {
     .mainImg {
-      margin: auto;
+      width: 45vw;
+    }
+    .downloadArea {
+      width: 60vw;
+    }
+    .cover {
+      height: 25.3vw;
+    }
+    .gameName {
+      font-size: 2rem;
+      margin-left: 10%;
+    }
+    .gameDescription {
+      width: 70vw;
+    }
+  }
+@media (max-width: 1100px) {
+    .mainImg {
+      margin-left: 10%;
       display: flex;
-      width: 90%;
+      width: 60vw;
+    }
+    .mainContent {
+      text-align: left;
+    }
+    .downloadArea {
+      width: 60vw;
+    }
+    .cover {
+      height: 30vw;
+      margin-left: 10%;
+      margin-top: 0.3rem;
+      float: left;
+    }
+    .gameName {
+      font-size: 2rem;
+      margin-left: 10%;
+    }
+    .gameDescription {
+      display: inline;
+    }
+  }
+@media (max-width: 900px) {
+    .mainImg {
+      margin-left: 10%;
+      width: 60vw;
     }
     .mainContent {
         width: 100%;
+        text-align: left;
+    }
+    .cover{
+      height: 30vw;
     }
     .gameName {
-        margin-left: 2.3%;
+      font-size: 2rem;
     }
   }
-  @media (max-width: 450px) {
+  @media (max-width: 500px) {
     .mainImg {
       width: 95%;
       margin: auto;
       display: flex;
     }
-
+    .cover {
+      height: 50vw;
+      margin-left: 2.6%;
+      margin-top: 0.3rem;
+    }
   }

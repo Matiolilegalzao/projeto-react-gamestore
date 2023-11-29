@@ -7,6 +7,7 @@ import CategoriasPage from './Pages/Categorias';
 import BibliotecaPage from './Pages/Biblioteca';
 import RegistroPage from './Pages/Registro';
 import Re4Remake from './GamesPage/re4';
+import Fifa24 from './GamesPage/fifa24';
 
 function AppRoutes() {
   return (
@@ -18,7 +19,7 @@ function AppRoutes() {
         <Route path='/biblioteca' element={<BibliotecaPage/>}></Route>
         <Route path='/registro' element={<RegistroPage/>}></Route>
         <Route path='/loja/resident-evil-4-remake' element={<Re4Remake/>}></Route>
-        
+        <Route path='/loja/ea-sports-fc-24' element={<Fifa24/>}></Route>
       </Routes>
     </Router>
   );

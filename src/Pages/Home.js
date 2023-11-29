@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import styles from './Home.module.css'
 import React from 'react';
 import HeaderComponent from '../Components/headerComponent';
-
 function Home() {
     return (
         <>
@@ -16,7 +15,9 @@ function Home() {
                     </Link>
                 </div>
                 <div className={styles.item}>
+                    <Link to="/loja/ea-sports-fc-24">
                     <img src="/images/fifa24.jpg" className={styles.item} alt="Ea Sports FC 24"></img>
+                    </Link>
                 </div>
                 <div className={styles.item}>
                     <img src="/images/streetfighter6.jpg" className={styles.item} alt="Street Fighter 6"></img>
