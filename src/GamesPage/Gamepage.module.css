@@ -127,4 +127,8 @@
       margin-left: 2.6%;
       margin-top: 0.3rem;
     }
+    .downloadArea {
+      width: 95%;
+      font-size: 1.2rem;
+    }
   }

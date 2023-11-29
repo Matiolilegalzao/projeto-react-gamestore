@@ -6,11 +6,13 @@ import styles from "./Loja.module.css"
 const Jogos = {
     re4: {
         nome: 'Resident Evil 4 Remake',
-        preco: 'R$200,00'
+        preco: 'R$200,00',
+        capa: "/images/re4.jpg"
     },
     fifa24: {
         nome: 'Ea Sports FC 24',
-        preco: 'R$320,00'
+        preco: 'R$320,00',
+        capa: "/images/fifa24.jpg"
     }
 }
 

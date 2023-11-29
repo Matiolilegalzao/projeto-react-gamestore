@@ -10,7 +10,7 @@ function Re4Remake(){
         <div className={styles.mainContent}>
             <h2 className={styles.gameName}>Resident Evil 4</h2>
             <img src="/images/resident-evil-4/1.jpg" alt="Imagem do jogo" className={styles.mainImg}id="img"></img>
-            <img src="/images/re4.jpg" alt="Imagem do jogo" className={styles.cover}id="img"></img>
+            <img src={Jogos.re4.capa} alt="Imagem do jogo" className={styles.cover}id="img"></img>
             <p className={styles.gameDescription}>
                 Sobrevivência é apenas o começo. Seis anos se passaram desde o desastre biológico em Raccoon City.
                 Leon S. Kennedy, um dos sobreviventes, segue o rastro da raptada filha do presidente até uma vila
