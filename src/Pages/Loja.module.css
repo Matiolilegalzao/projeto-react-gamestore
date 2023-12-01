@@ -30,3 +30,6 @@
     width: 15rem;
     filter: brightness(0.9);
 }
+.overlay {
+    display: flex;
+}

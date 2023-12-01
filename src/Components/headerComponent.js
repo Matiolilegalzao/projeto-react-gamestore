@@ -5,7 +5,7 @@ function HeaderComponent() {
     return (
         <>
         <div className={styles.header}>
-        <ul>
+        <ul className={styles.navbarList}>
             <li><Link to="/">Início</Link></li>
             <li><Link to="/biblioteca">Biblioteca</Link></li>
             <li><Link to="/loja">Loja</Link></li>

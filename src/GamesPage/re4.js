@@ -3,7 +3,9 @@ import styles from "./Gamepage.module.css"
 import React from "react";
 import { Jogos } from "../Pages/Loja";
 import { Link } from "react-router-dom";
+import { jogoComprado } from "../Pages/Pagamento";
 
+let teste;
 function Re4Remake(){
     return(
         <>
@@ -27,13 +29,6 @@ function Re4Remake(){
         </>
     )
 }
-/*function comprar(){
-    let jogoPagamento = Jogos.re4.nome;
-    let precoPagamento = Jogos.re4.preco;
 
-    console.log(precoPagamento)
-    console.log(jogoPagamento)
-}
 
-export { precoPagamento, jogoPagamento }*/
 export default Re4Remake

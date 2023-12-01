@@ -15,5 +15,11 @@ function PagamentoPage() {
         </>
     )
 }
+let jogoComprado = 0;
 
+if(jogoComprado != 0){
+    alert("Id do jogo: " + jogoComprado)
+}
+
+export { jogoComprado }
 export default PagamentoPage

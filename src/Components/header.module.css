@@ -1,4 +1,4 @@
-ul {
+.navbarList {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -13,9 +13,8 @@ li {
     border: 1px solid #333;
     color: aliceblue;
     background-color: #333;
-
 }
-li:last-child {
+.navbarList > li:last-child {
     order: 1;
     margin-left: auto;
 }

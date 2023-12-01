@@ -20,10 +20,23 @@ function Home() {
                     </Link>
                 </div>
                 <div className={styles.item}>
+                    <Link to="/loja/street-fighter-6">
                     <img src="/images/streetfighter6.jpg" className={styles.item} alt="Street Fighter 6"></img>
+                    </Link>
                 </div>
             </div>
+            <div className={styles.categoriasContainer}>
+                <h2>Categorias</h2>
+                <ul className={styles.categoriasList}>
+                    <li className={styles.categoriasListItem}>Ação</li>
+                    <li className={styles.categoriasListItem}>Terror</li>
+                    <li className={styles.categoriasListItem}>Gratuito</li>
+                    <li className={styles.categoriasListItem}>RPG</li>
+                    <li className={styles.categoriasListItem}>Casual</li>
+                </ul>
+            </div>    
         </div>
+
         </>
     )
 }

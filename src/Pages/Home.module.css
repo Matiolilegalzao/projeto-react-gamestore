@@ -10,9 +10,30 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 0.4rem;
     width: fit-content;
-    margin: auto;
-    height: 100vw;
+    margin: 0 auto 3rem auto;
+    height: fit-content;
 }
+
+.categoriasContainer {
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    margin: auto;
+    width: 41rem;
+    display: block;
+    text-align: left;
+
+}
+.categoriasContainer > h2 {
+    margin-left: 1rem;
+}
+.categoriasList {
+    padding: 0;
+}
+.categoriasListItem {
+    list-style: none;
+    margin-left: 1rem;
+}
+
 .popular {
     text-align: center;
     margin: 1rem;
@@ -31,5 +52,8 @@
 @media (max-width: 768px) {
   .container {
     grid-template-columns: 1fr; /* Altera para uma coluna quando a largura da tela é 768 pixels ou menos */
+  }
+  .categorias {
+    width: 35rem;
   }
 }
