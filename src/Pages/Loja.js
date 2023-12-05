@@ -3,6 +3,7 @@ import React from "react"
 import { Link } from 'react-router-dom'
 import styles from "./Loja.module.css"
 
+
 const Jogos = {
     re4: {
         id: 1,
@@ -21,6 +22,18 @@ const Jogos = {
         nome: 'Street Fighter 6',
         preco: 'R$249,90',
         capa: "/images/streetfighter6.jpg"
+    },
+    icarus: {
+         id: 4,
+        nome: 'Icarus',
+        preco: 'R$101,99',
+        capa: "/images/icarus.jpg"
+    },
+    battlefield2042: {
+        id: 5,
+        nome: 'Battlefield 2042',
+        preco: '249,00',
+        capa: "/images/battlefield.jpg"
     }
 }
 
@@ -49,16 +62,19 @@ function LojaPage() {
                     </Link>
                 </div>
                 <div className={styles.item}>
+                    <Link to="/loja/icarus">
                     <img src="/images/icarus.jpg" className={styles.item} alt="Icarus"></img>
+                    </Link>
                 </div> 
                 <div className={styles.item}>
-                    <img src="/images/battlefield.jpg" className={styles.item} alt="Icarus"></img>
+                    <Link to="/loja/battlefield-2042">
+                    <img src="/images/battlefield.jpg" className={styles.item} alt="Battlefield 2042"></img>
+                    </Link>
                 </div>                      
             </div>
         </div>
         </>
     )
 }
-
 export default LojaPage;
 export { Jogos }

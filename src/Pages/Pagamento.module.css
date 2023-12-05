@@ -1,6 +1,9 @@
 .pageTitle {
     color: aliceblue;
 }
+.subtitle {
+    color: aliceblue;
+}
 .mainContent {
     margin: 2rem auto;
     width: 60vw;

@@ -11,7 +11,7 @@ function StreetFighter6(){
         <>
         <HeaderComponent></HeaderComponent>
         <div className={styles.mainContent}>
-            <h2 className={styles.gameName}>Resident Evil 4</h2>
+            <h2 className={styles.gameName}>Street Fighter 6</h2>
             <img src="/images/streetfighter6/1.jpg" alt="Imagem do jogo" className={styles.mainImg}id="img"></img>
             <img src={Jogos.streetfighter6.capa} alt="Imagem do jogo" className={styles.cover}id="img"></img>
             <p className={styles.gameDescription}>
@@ -20,7 +20,7 @@ function StreetFighter6(){
                 incluindo World Tour, Fighting Ground e Battle Hub.
             </p>
             <div className={styles.downloadArea}>
-                <p>Comprar {Jogos.streetfighter6.nome} {Jogos.streetfighter6.preco}</p>
+                <p>Comprar {Jogos.streetfighter6.nome} por {Jogos.streetfighter6.preco}</p>
                 <Link to="/pagamento">
                 <input type="button" className={styles.downloadButton} value="Comprar"/>
                 </Link>

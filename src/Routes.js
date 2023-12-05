@@ -9,6 +9,7 @@ import RegistroPage from './Pages/Registro';
 import LoginPage from './Pages/Login';
 
 import Re4Remake from './GamesPage/re4'; import Fifa24 from './GamesPage/fifa24'; import PagamentoPage from './Pages/Pagamento'; import StreetFighter6 from './GamesPage/streetfighter6';
+import Icarus from './GamesPage/icarus'; import Battlefield2042 from './GamesPage/battlefield2042';
 
 
 function AppRoutes() {
@@ -25,7 +26,8 @@ function AppRoutes() {
         <Route path='/loja/resident-evil-4-remake' element={<Re4Remake/>}></Route>
         <Route path='/loja/ea-sports-fc-24' element={<Fifa24/>}></Route>
         <Route path='/loja/street-fighter-6' element={<StreetFighter6/>}></Route>
-
+        <Route path='/loja/icarus' element={<Icarus></Icarus>}></Route>
+        <Route path='/loja/battlefield-2042' element={<Battlefield2042></Battlefield2042>}></Route>
 
         <Route path='/pagamento' element={<PagamentoPage/>}></Route>
 

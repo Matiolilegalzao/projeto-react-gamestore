@@ -1,12 +1,25 @@
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import HeaderComponent from "../Components/headerComponent";
-import styles from "./Gamepage.module.css"
-import React from "react";
+import styles from "./Gamepage.module.css";
 import { Jogos } from "../Pages/Loja";
 import { Link } from "react-router-dom";
-import { jogoComprado } from "../Pages/Pagamento";
 
-let teste;
-function Re4Remake(){
+const precoJogo = parseFloat(Jogos.re4.preco.replace('R$', '').replace(',', '.'));
+function Re4Remake() {
+  const [saldo, setSaldo] = useState(10000); // Substitua 100 pelo seu valor inicial de saldo
+  const navigate = useNavigate();
+
+  function comprar() {
+  /*if (saldo >= precoJogo) {
+    setSaldo((prevSaldo) => prevSaldo - precoJogo);
+    navigate("/pagamento"); // Navega para a página de pagamento
+  } else {
+    console.log("Saldo insuficiente");
+  }*/
+}
+
+
     return(
         <>
         <HeaderComponent></HeaderComponent>
@@ -22,7 +35,7 @@ function Re4Remake(){
             <div className={styles.downloadArea}>
                 <p>Comprar {Jogos.re4.nome} {Jogos.re4.preco}</p>
                 <Link to="/pagamento">
-                <input type="button" className={styles.downloadButton} value="Comprar" />
+                  <input type="button" className={styles.downloadButton} value="Comprar" />
                 </Link>
             </div>
         </div>

@@ -9,7 +9,8 @@ function PagamentoPage() {
 
         <HeaderComponent></HeaderComponent>
         <div className={styles.mainContent}>
-         <h1 className={styles.pageTitle}>Pagamento</h1>
+         <h1 className={styles.pageTitle}>Pagamento realizado!</h1>
+         <h2 className={styles.subtitle}>Jogo adicionado à sua biblioteca.</h2>
          <p></p>
         </div>
         </>

@@ -1,10 +1,12 @@
 import HeaderComponent from "../Components/headerComponent"
-
+import styles from "./Biblioteca.module.css"
 function BibliotecaPage() {
     return (
         <>
         <HeaderComponent></HeaderComponent>
-        <h1>Biblioteca</h1>
+        <div className={styles.mainContent}>
+            <h1 className={styles.title}>Biblioteca</h1>
+        </div>
         </>
     )
 }
